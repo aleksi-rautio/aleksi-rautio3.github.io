@@ -1,0 +1,164 @@
+
+
+.titleStyle {
+    width: fit-content; /* Make the content width flexible based on its content */
+    margin-left: 750px; /* Adjust this value to move the content horizontally */
+    margin-top: 50px;
+}
+.titleStyle2{
+    width: fit-content; /* Make the content width flexible based on its content */
+    margin-left: 680px; /* Adjust this value to move the content horizontally */
+    margin-top: 50px;
+}
+
+
+/* Custom margin or padding to move the text closer to the center */
+.center-text {
+    width: fit-content; /* Make the content width flexible based on its content */
+    margin-left: 300px; /* Adjust this value to move the content horizontally */
+    margin-top: 50px; /* Adjust to move the content vertically */
+}
+
+
+.InfoGyms{
+    width: fit-content; /* Make the content width flexible based on its content */
+    margin-left: 100px; /* Adjust this value to move the content horizontally */
+    margin-top: 0px; /* Adjust to move the content vertically */
+}
+
+
+
+/* General body styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to left, #000000, #333333); /* Black gradient background */
+    color: #ffffff; /* White text color */
+
+}
+
+/* Title styles */
+.titleStyle h1 {
+    color: #8A2BE2; /* Red title color */
+    font-size: 3em;
+    margin-bottom: 0.2em;
+}
+
+.titleStyle h3 {
+    color: #e6e6e6; /* Light gray subtitle color */
+    font-size: 1.5em;
+}
+
+.subTitleStyle{
+    width: fit-content; /* Make the content width flexible based on its content */
+    margin-left: 738px; /* Adjust this value to move the content horizontally */
+    margin-top: 50px;
+}
+
+.titleStyle2 h1 {
+    color: #8A2BE2; /* Red title color */
+    font-size: 3em;
+    margin-bottom: 0.2em;
+}
+
+/* Tab styles */
+.tabs {
+    background-color: #e6e6e6; /* Dark background for the tab section */
+    padding: 10px 0;
+}
+
+.tabs li {
+    display: inline;
+    margin: 0 15px;
+    
+}
+
+.tabs a {
+    color: #ff0000; /* Red link color */
+    background-color: transparent; /* No background color */
+    padding: 10px 20px; /* Add padding to make the links more prominent */
+    text-decoration: none;
+  
+    border-radius: 5px;
+    font-size: 1.2em;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.tabs a:hover {
+    color: #ffffff; /* White when hovered */
+    background-color: #2e2e2e; /* Red background when hovered */
+}
+.tabs li {
+    list-style-type: none;
+}
+/* Centered text styles */
+.center-text {
+    padding: 30px;
+}
+
+/* H2 and link styles */
+h2.orange {
+    color: #ff0000; /* Red headings */
+    
+}
+
+h2.orange a {
+    color: #ff0000; /* Red links in headings */
+    text-decoration: underline; /* Underline the text */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: color 0.3s ease;
+}
+
+h2.orange a:hover {
+    color: #ffffff; /* White when hovered */
+}
+
+/* Paragraph styles */
+p {
+    color: #e6e6e6; /* Light gray text */
+    font-size: 1.1em;
+    line-height: 1.5;
+}
+
+/* Optional styling for better readability */
+.center-text p {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Style the list to remove bullets */
+.tabs li {
+    list-style-type: none;
+}
+
+
+
+
+.tabs {
+    display: flex;
+    list-style-type: none;
+    margin: 20px;
+}
+.tabs a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+.tabs li {
+    margin-left: 40px; /* Increase this value for more space */
+}
+
+.tabs a:hover {
+    color: #ff0000;
+}
+
+.Contacts{
+    width: fit-content; /* Make the content width flexible based on its content */
+    margin-left: 400px; /* Adjust this value to move the content horizontally */
+    margin-top: 50px; /* Adjust to move the content vertically */
+
+}
+
+.Contacts a{
+    color: #ff0000;
+}
